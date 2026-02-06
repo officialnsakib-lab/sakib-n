@@ -1,0 +1,39 @@
+import { Metadata } from "next"; // SEO এর জন্য
+import RootLayoutClient from "./RootLayoutClient"; // ক্লায়েন্ট লজিক আলাদা ফাইলে
+
+// বস্, এই অংশটি সার্ভার সাইডে রেন্ডার হবে, যা SEO এর জন্য ১ নম্বর
+export const metadata: Metadata = {
+  title: "SAKIB | Next.js Evangelist & Full-Stack Developer",
+  description: "Official portfolio of NAZMUS SAKIB. GPA 4.60 in SSC, Expert in Wordpress, HTML, and Google sites (Shahed-136). Building future-ready digital ecosystems.",
+  keywords: ["SAKIB", "Next.js Expert", "Basic Developer Bangladesh", "GPA 4.60 SSC", "Political Science Honours", "Shahed-136 Drone Project"],
+  openGraph: {
+    title: "SAKIB | Next.js Evangelist",
+    description: "Building robust digital ecosystems with high-performance code.",
+    url: "https://your-domain.com",
+    siteName: "SAKIB Portfolio",
+    images: [
+      {
+        url: "/og-image.jpg", // public ফোল্ডারে এই ছবিটা রাখতে ভুলবেন না
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NAZMUS SAKIB | Portfolio",
+    images: ["/og-image.jpg"],
+  },
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" className="scroll-smooth">
+      <body className="bg-[#050505] text-white overflow-x-hidden antialiased">
+        {/* সব এনিমেশন এবং থিম লজিক এই ক্লায়েন্ট কম্পোনেন্টে থাকবে */}
+        <RootLayoutClient>{children}</RootLayoutClient>
+      </body>
+    </html>
+  );
+}
