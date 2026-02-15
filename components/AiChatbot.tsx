@@ -6,7 +6,7 @@ export default function AiChatbot() {
   const [isOpen, setIsOpen] = useState(false);
   const [isTyping, setIsTyping] = useState(false);
   const [messages, setMessages] = useState([
-    { text: "হ্যালো! আমি আজহারুলের স্মার্ট এসিস্ট্যান্ট। আজহারুল সম্পর্কে কী জানতে চান?", sender: "bot" }
+    { text: "হ্যালো! আমি সাকিব স্মার্ট এসিস্ট্যান্ট। সাকিব সম্পর্কে কী জানতে চান?", sender: "bot" }
   ]);
   const [input, setInput] = useState("");
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -43,7 +43,7 @@ export default function AiChatbot() {
       console.error("Chat Error:", error);
       setMessages((prev) => [
         ...prev, 
-        { text: "দুঃখিত বস্, সার্ভারে সমস্যা হচ্ছে।", sender: "bot" }
+        { text: "আমি সাকিব আমি খুলনাতে বসবাস করছি ্ আমি একজন ফ্রিল্যান্সার", sender: "bot" }
       ]);
     } finally {
       setIsTyping(false);
@@ -71,7 +71,7 @@ export default function AiChatbot() {
             <div className="p-5 bg-gradient-to-r from-cyan-500/20 to-transparent flex items-center gap-4 border-b border-white/5">
               <div className="w-12 h-12 rounded-full border-2 border-cyan-500 p-1 flex items-center justify-center text-cyan-500 font-bold italic text-xl">A</div>
               <div>
-                <h4 className="text-white font-bold tracking-tight">Azharul AI Concierge</h4>
+                <h4 className="text-white font-bold tracking-tight">Sakib AI Concierge</h4>
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
                   <span className="text-[10px] text-cyan-400 font-mono uppercase tracking-widest">System Online</span>

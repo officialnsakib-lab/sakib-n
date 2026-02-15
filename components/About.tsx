@@ -59,7 +59,7 @@ export default function About() {
               
               <div className="relative w-60 h-60 md:w-80 md:h-80 rounded-full overflow-hidden border-[3px] border-white/5 bg-[#050505]">
                 <img 
-                  src="/sakib1.jpg" 
+                  src="/sakib.0.jpg" 
                   alt="Nazmus Sakib" 
                   className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-1000 scale-110 group-hover:scale-100"
                 />
