@@ -12,8 +12,8 @@ export default function Hero() {
   name: "Nazmus Sakib",
   role: "Wordpress Developer",
   skills: ["React", "Next.js", "Node"],
-  ssc_gpa: 4.60,
-  hsc_gpa: 3.80,
+  ssc_gpa: 4.06,
+  hsc_gpa: 3.08,
   status: "Building the future"
 };`;
 

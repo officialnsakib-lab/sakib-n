@@ -6,7 +6,7 @@ const eduData = [
   {
     year: "2022 - 2024",
     degree: "Higher Secondary Certificate (HSC)",
-    result: "GPA 3.80",
+    result: "GPA 3.08",
     institution: "Khan Shaeb kamaruddin College, Khulna",
     board: "Jashore Board",
     group: "Humanities Group",
@@ -15,11 +15,11 @@ const eduData = [
   {
     year: "2020 - 2022",
     degree: "Secondary School Certificate (SSC)",
-    result: "GPA 4.60",
-    institution: "Graduate's High School",
-    board: "Jashore Board",
+    result: "GPA 4.06",
+    institution: "D.A Dkakil Madrasha",
+    board: "Madrasha Board",
     group: "Humanities Group",
-    desc: "Achieved a perfect GPA 4.60, building a rock-solid foundation in analytical thinking and core science subjects."
+    desc: "Achieved a perfect GPA 4.06, building a rock-solid foundation in analytical thinking and core science subjects."
   }
 ];
 

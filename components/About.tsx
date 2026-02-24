@@ -142,11 +142,11 @@ export default function About() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
               <div className="p-6 rounded-2xl bg-[#0a0a0a] border border-white/5 hover:border-white/20 transition-colors group">
                 <h4 className="text-xs text-gray-500 uppercase mb-2 font-mono tracking-widest">SSC Result</h4>
-                <p className="text-3xl font-black group-hover:scale-110 transition-transform origin-left" style={{ color: theme.color }}>GPA 4.60</p>
+                <p className="text-3xl font-black group-hover:scale-110 transition-transform origin-left" style={{ color: theme.color }}>GPA 4.06</p>
               </div>
               <div className="p-6 rounded-2xl bg-[#0a0a0a] border border-white/5 hover:border-white/20 transition-colors group">
                 <h4 className="text-xs text-gray-500 uppercase mb-2 font-mono tracking-widest">HSC Result</h4>
-                <p className="text-3xl font-black text-white group-hover:scale-110 transition-transform origin-left">GPA 3.80</p>
+                <p className="text-3xl font-black text-white group-hover:scale-110 transition-transform origin-left">GPA 3.08</p>
               </div>
             </div>
 

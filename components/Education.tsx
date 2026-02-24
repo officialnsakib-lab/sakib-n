@@ -20,8 +20,8 @@ const eduData = [
   {
     year: "2022 - 2024",
     degree: "Higher Secondary Certificate (HSC)",
-    result: "GPA 3.80",
-    institution: "Government Sundarban Adarsha College, Khulna",
+    result: "GPA 3.08",
+    institution: "Khan Shaeb kamaruddin College, Khulna",
     board: "Jashore Board",
     group: "Humanities",
     desc: "Completed higher secondary education in the Humanities group with a strong focus on social sciences.",
@@ -30,12 +30,12 @@ const eduData = [
   },
   {
     year: "2020 - 2022",
-    degree: "Secondary School Certificate (SSC)",
-    result: "GPA 4.60",
-    institution: "Graduate's High School", 
+    degree: " Dhakil ",
+    result: "GPA 4.06",
+    institution: "D.A Dhakil Madrasha", 
     board: "Jashore Board",
-    group: "Science Group",
-    desc: "Successfully completed secondary education with a background in Science, achieving a GPA of 4.60.",
+    group: "Humanities",
+    desc: "Successfully completed secondary education with a background in Science, achieving a GPA of 4.06.",
     color: '#10B981', 
     glow: 'shadow-[0_0_20px_rgba(16,185,129,0.5)]'
   }
